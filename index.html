@@ -813,6 +813,14 @@
             <div class="stat-mini-label">수원대 경영대학원</div>
           </div>
         </div>
+        <div class="stat-divider"></div>
+        <div style="background:rgba(227,30,36,0.1);border:1px solid rgba(227,30,36,0.3);border-radius:10px;padding:12px 16px;display:flex;align-items:center;gap:12px;">
+          <span style="font-size:22px;">🏗️</span>
+          <div>
+            <div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:1px;text-transform:uppercase;margin-bottom:3px;">대표 사업 성과</div>
+            <div style="font-size:14px;font-weight:700;color:#fff;">일월호수 공영주차장 조성</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -919,6 +927,12 @@
         <li>(전) 구운초, 일월초, 구운중, 서호중 운영위원회 지역위원</li>
       </ul>
     </div>
+    <div class="career-block reveal" style="margin-top:36px;">
+      <h3>🏅 주요 성과</h3>
+      <ul class="career-list">
+        <li><strong style="color:var(--red);">일월호수 공영주차장 조성</strong> — 지역 숙원사업 해결, 일월공원 인근 주차난 해소 및 시민 편의 증진</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -950,7 +964,7 @@
           <div>
             <div class="contact-text-label">이메일</div>
             <div class="contact-text-value">
-              <a href="mailto:yjk8100@naver.com">yjk8100@naver.com</a>
+              <a href="/cdn-cgi/l/email-protection#b9c0d3d281888989f9d7d8cfdccb97dad6d4"><span class="__cf_email__" data-cfemail="e79e8d8cdfd6d7d7a78986918295c984888a">[email&#160;protected]</span></a>
             </div>
           </div>
         </div>
@@ -973,16 +987,14 @@
   <span style="margin-top:8px; display:block;">서둔 · 탑동 · 구운 · 율천 · 입북 · 당수 &nbsp;|&nbsp; 700건을 해결한 민원해결사</span>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   // Scroll reveal
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry, i) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => entry.target.classList.add('visible'), i * 80);
-      }
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0.15 });
   reveals.forEach(el => observer.observe(el));
 </script>
 </body>
